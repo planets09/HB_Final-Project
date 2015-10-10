@@ -9,7 +9,7 @@ while(True):
 	if user_answer.upper() == "A": #Note: "A" is the expected answer that the user will type. You are also checking to see if user is typing "A", otherwise it won't print list.
 		print Rena_to_do
 	elif user_answer.upper() == "B":
-		print Rena_to_do['Shopping']
+		del Rena_to_do['Shopping']
 	elif user_answer.upper() == "C":
 		print Rena_to_do['Pay_Bills']
 	elif user_answer.upper() == "D":
